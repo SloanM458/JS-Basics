@@ -36,8 +36,6 @@
 
 #container{
     display: flex;
-    /* margin-left: 200px;
-    margin-right: 200px; */
     margin-top: 20px;
     margin: 0 auto;
     gap: 100px;
@@ -51,11 +49,10 @@
     margin-bottom: 20px;
 }
 
-.likes-13, .likes-37{
+#like-button{
     background-color: rgb(225, 206, 85);
     padding: 5px;
     border: 2px solid black;
-    margin-top: 5px;
 }
 
 .column-top, .column-bottom{
@@ -90,7 +87,6 @@
 .right-side{
     flex:1;
     outline: 2px solid black;
-    /* margin-left: 20px; */
     margin-top: 20px;
     padding: 20px;
     max-height: 100px;

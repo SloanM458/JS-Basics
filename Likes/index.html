@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="network">Network</h1>
+        <div class="header">
+            <h1 class="your-feed">Your Feed</h1>
+        </div>
+    </div>
+    <!---------------------------------end of navbar------------------------------>
+    <div id="container">
+        <div class="left-side">
+            <img src="user-circle.png" class="user-image" alt="User Avatar"><br>
+            <a href="#" class="avatar">Add an avatar</a>
+            <h2 class="profile-user">James Doe</h2>
+        </div>
+        <!---------------------------------end of left side------------------------------>
+        <div class="right-side">
+
+            <div class="row1">
+                <div class="likes-row">
+                        <h2>Neil M</h2>
+                        <h3> <span id="likes">9</span> like(s)</h3>
+                        <button onclick="increment('#likes')" id="like-button">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me <br>
+                    know what you all think. <a href="#">link</a></p>
+            </div>
+
+            <div class="row2">
+                <div class="likes-row">
+                    <h2>Nichole K</h2>
+                    <h3> <span id="likes2">12</span> like(s)</h3>
+                    <button onclick="increment('#likes2')" id="like-button">Like</button>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+
+            <div class="row3">
+                <div class="likes-row">
+                    <h2>Jim R</h2>
+                    <h3> <span id="likes3">9</span> like(s)</h3>
+                    <button onclick="increment('#likes3')" id="like-button">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. <br>
+                    Who else is liking it?</p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!---------------------------------end of container------------------------------>
+    <script src="script.js"></script>
+</body>
+
+</html>

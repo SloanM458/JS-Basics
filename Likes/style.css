@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Balsamiq+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    color: white;
+    background-color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.network{
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+.header{
+    max-width: 1000px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* --------------------End of Navbar/ Header------------------ */
+
+#container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.left-side{
+    flex:0.7;
+    height: 300px;
+    outline: 4px solid black;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 60px;
+}
+
+.user-image{
+    height: 100px;
+    padding: 15px;
+}
+
+.profile-user{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+/* --------------------End of Left Side------------------ */
+
+.right-side{
+    flex:2;
+}
+
+.row1, .row2, .row3{
+    width: 700px;
+    height: 150px;
+    outline: 4px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.likes-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+
+#like-button{
+    background-color: rgb(235, 200, 76);
+    border: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+p{
+    font-size: 20px;
+}

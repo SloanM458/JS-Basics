@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Balsamiq+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin-top: 60px;
+    padding: 20px;
+    margin:0 auto;
+}
+.row1{
+    width: 700px;
+    height: 150px;
+    outline: 4px solid black;
+    padding: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#like-button{
+    width: 65px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(235, 200, 76);
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    font-size: 18px;
+}
+
+.filler{
+    font-size: 20px;
+    padding-top: 20px;
+}
