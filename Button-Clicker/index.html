@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <!-- <div class="navbar-left"> -->
+        <h1 class="navbar-title">Dojonary</h1>
+        <form class="navbar-search">
+            <input type="text" placeholder="Search" class="searchbar">
+        </form>
+        <!-- </div> -->
+
+        <!-- <div class="navbar-right"> -->
+        <button class="login-button" onclick="signIn(this)">Login</button>
+    </div>
+    <!------------- End of Navbar -------------->
+    <div id="container">
+        <div class="left-side">
+            <div class="column-top">
+                <div class="definition-one">
+                    <h2>ninja</h2>
+                    <p>noun <br>
+                        Plural:<span class="italics">ninjas</span></p>
+                    <button class="likes-13" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div>
+                    <h4 class="explanation1">A practitioner skilled in the <br>
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </h4>
+                </div>
+            </div>
+            <!--------------------------- END OF COLUMN TOP----------------------->
+            <div class="column-bottom">
+                <div class="definition-two">
+                    <h2>ninja</h2>
+                    <p>noun <br>
+                        Plural: <span class="italics">ninjas</span></p>
+                    <button class="likes-37" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+
+                <div>
+                    <h4 class="explanation2">A <a href="#">programmer</a> who breaks<br>
+                        down problems with <a href="#">zen</a>-like focus
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <!--------------------------- END OF CONTAINER LEFT----------------------->
+        <div class="right-side">
+            <h3>Dojonary is <br>
+                defined by <span class="bold">You</span></h3>
+            <button class="add-definition" onclick="removeButton(this)">Add Definition</button>
+        </div>
+    </div>
+    <!--------------------------- END OF CODE----------------------->
+    <script src="script.js"></script>
+</body>
+</html>
