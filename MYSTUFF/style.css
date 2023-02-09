@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Balsamiq+Sans&family=Roboto&family=Rubik&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(235, 73, 214);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+
+}
