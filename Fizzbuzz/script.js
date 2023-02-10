@@ -10,3 +10,6 @@ for( var i=1; i<=100; i++){
     }
     else{console.log(i)};
 }
+
+// This loop organizes with priority in mind. 15 is at the top or else
+// it would print only % 5 0 and % 3 0
